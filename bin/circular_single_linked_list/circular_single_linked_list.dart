@@ -118,7 +118,7 @@ class CircularSingleLinkedList {
   }
 
   void deleteLinkedList() {
-    head?.next = null;
+    tail?.next = null;
     head = null;
     tail = null;
     print('Delete Linked List From Memory...');
